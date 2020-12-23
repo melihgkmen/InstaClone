@@ -15,6 +15,16 @@
 		B3856F292593D24500595D36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3856EFE2593D24100595D36 /* ContentView.swift */; };
 		B3856F2A2593D24500595D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3856EFF2593D24400595D36 /* Assets.xcassets */; };
 		B3856F2B2593D24500595D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3856EFF2593D24400595D36 /* Assets.xcassets */; };
+		B3856F3F2593D26E00595D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3856F3E2593D26E00595D36 /* AppDelegate.swift */; };
+		B3856F452593D27400595D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3856F442593D27400595D36 /* Assets.xcassets */; };
+		B3856F522593D27E00595D36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3856F4A2593D27D00595D36 /* SceneDelegate.swift */; };
+		B3856F532593D27E00595D36 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3856F4B2593D27D00595D36 /* UploadViewController.swift */; };
+		B3856F542593D27E00595D36 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3856F4C2593D27D00595D36 /* SettingsViewController.swift */; };
+		B3856F552593D27E00595D36 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B3856F4D2593D27E00595D36 /* Base.lproj */; };
+		B3856F562593D27E00595D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3856F4E2593D27E00595D36 /* ViewController.swift */; };
+		B3856F572593D27E00595D36 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3856F4F2593D27E00595D36 /* FeedCell.swift */; };
+		B3856F582593D27E00595D36 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3856F502593D27E00595D36 /* FeedViewController.swift */; };
+		B3856F592593D27E00595D36 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3856F512593D27E00595D36 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		B3856F1F2593D24500595D36 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3856F232593D24500595D36 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		B3856F252593D24500595D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3856F3E2593D26E00595D36 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3856F442593D27400595D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3856F4A2593D27D00595D36 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B3856F4B2593D27D00595D36 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		B3856F4C2593D27D00595D36 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B3856F4D2593D27E00595D36 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		B3856F4E2593D27E00595D36 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3856F4F2593D27E00595D36 /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		B3856F502593D27E00595D36 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		B3856F512593D27E00595D36 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +106,16 @@
 		B3856EF72593D24100595D36 = {
 			isa = PBXGroup;
 			children = (
+				B3856F3E2593D26E00595D36 /* AppDelegate.swift */,
+				B3856F442593D27400595D36 /* Assets.xcassets */,
+				B3856F4D2593D27E00595D36 /* Base.lproj */,
+				B3856F4F2593D27E00595D36 /* FeedCell.swift */,
+				B3856F502593D27E00595D36 /* FeedViewController.swift */,
+				B3856F512593D27E00595D36 /* Info.plist */,
+				B3856F4A2593D27D00595D36 /* SceneDelegate.swift */,
+				B3856F4C2593D27D00595D36 /* SettingsViewController.swift */,
+				B3856F4B2593D27D00595D36 /* UploadViewController.swift */,
+				B3856F4E2593D27E00595D36 /* ViewController.swift */,
 				B3856EFC2593D24100595D36 /* Shared */,
 				B3856F062593D24400595D36 /* iOS */,
 				B3856F0D2593D24400595D36 /* macOS */,
@@ -275,6 +305,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3856F592593D27E00595D36 /* Info.plist in Resources */,
+				B3856F452593D27400595D36 /* Assets.xcassets in Resources */,
+				B3856F552593D27E00595D36 /* Base.lproj in Resources */,
 				B3856F2A2593D24500595D36 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,8 +341,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3856F3F2593D26E00595D36 /* AppDelegate.swift in Sources */,
+				B3856F582593D27E00595D36 /* FeedViewController.swift in Sources */,
+				B3856F532593D27E00595D36 /* UploadViewController.swift in Sources */,
 				B3856F282593D24500595D36 /* ContentView.swift in Sources */,
 				B3856F262593D24500595D36 /* InstagramCloneApp.swift in Sources */,
+				B3856F562593D27E00595D36 /* ViewController.swift in Sources */,
+				B3856F572593D27E00595D36 /* FeedCell.swift in Sources */,
+				B3856F522593D27E00595D36 /* SceneDelegate.swift in Sources */,
+				B3856F542593D27E00595D36 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
